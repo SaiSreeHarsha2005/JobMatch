@@ -104,9 +104,9 @@ Clone the repository:
 
 Bash
 
-git clone https://github.com/SaiSreeHarsha2005/JobPortal.git
-cd JobPortal
-(Adjust JobPortal if you used a different repository name like JobMatch)
+git clone https://github.com/SaiSreeHarsha2005/JobMatch.git
+cd JobMatch
+
 
 Place the project in your web server's document root:
 Move the JobPortal folder into your XAMPP's htdocs directory (e.g., C:\xampp\htdocs\JobPortal).

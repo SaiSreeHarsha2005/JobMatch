@@ -1,0 +1,23 @@
+# Composer dependencies
+/vendor/
+composer.lock # Typically excluded if you want fresh installs; include if specific versions are critical
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store    # macOS
+Thumbs.db    # Windows
+
+# Log files (based on your 'includes/logs' directory)
+/includes/logs/
+
+# Uploads directory (user-generated content)
+/uploads/
+
+# Sensitive configuration files (if they exist and hold DB passwords, etc. - adjust as needed)
+# /includes/config.php # Example: if you move credentials here
+
+# Remove PHPMailer-master/ if it's a manual download and vendor/ is used
+PHPMailer-master/
